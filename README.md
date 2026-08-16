@@ -1739,3 +1739,229 @@ for (
 
 </body>
 </html>
+/* ================================
+   PERBAIKAN TAMPILAN FULL SCREEN
+================================ */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    width: 100%;
+}
+
+/* Container utama */
+.container,
+.wrapper,
+.main,
+.content,
+.page,
+.card {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Video */
+.video-box {
+    position: relative;
+    width: calc(100% - 30px);
+    max-width: 390px;
+    height: 230px;
+    margin: 15px auto;
+    overflow: hidden;
+    border-radius: 22px;
+    background: #023b5c;
+    border: 2px solid rgba(140, 235, 255, 0.6);
+
+    box-shadow:
+        0 8px 20px rgba(0, 0, 0, 0.3),
+        0 0 15px rgba(80, 220, 255, 0.2);
+
+    flex-shrink: 0;
+}
+
+.video-box video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* HP */
+@media (max-width: 500px) {
+
+    html,
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .video-box {
+        width: calc(100% - 30px);
+        max-width: 390px;
+        height: 230px;
+        margin: 15px auto;
+    }
+}/* ================================
+   PERBAIKAN TAMPILAN FULL SCREEN
+================================ */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    width: 100%;
+}
+
+/* Container utama */
+.container,
+.wrapper,
+.main,
+.content,
+.page,
+.card {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Video */
+.video-box {
+    position: relative;
+    width: calc(100% - 30px);
+    max-width: 390px;
+    height: 230px;
+    margin: 15px auto;
+    overflow: hidden;
+    border-radius: 22px;
+    background: #023b5c;
+    border: 2px solid rgba(140, 235, 255, 0.6);
+
+    box-shadow:
+        0 8px 20px rgba(0, 0, 0, 0.3),
+        0 0 15px rgba(80, 220, 255, 0.2);
+
+    flex-shrink: 0;
+}
+
+.video-box video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* HP */
+@media (max-width: 500px) {
+
+    html,
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .video-box {
+        width: calc(100% - 30px);
+        max-width: 390px;
+        height: 230px;
+        margin: 15px auto;
+    }
+}/* ================================
+   PERBAIKAN TAMPILAN FULL SCREEN
+================================ */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    width: 100%;
+}
+
+/* Container utama */
+.container,
+.wrapper,
+.main,
+.content,
+.page,
+.card {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Video */
+.video-box {
+    position: relative;
+    width: calc(100% - 30px);
+    max-width: 390px;
+    height: 230px;
+    margin: 15px auto;
+    overflow: hidden;
+    border-radius: 22px;
+    background: #023b5c;
+    border: 2px solid rgba(140, 235, 255, 0.6);
+
+    box-shadow:
+        0 8px 20px rgba(0, 0, 0, 0.3),
+        0 0 15px rgba(80, 220, 255, 0.2);
+
+    flex-shrink: 0;
+}
+
+.video-box video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* HP */
+@media (max-width: 500px) {
+
+    html,
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .video-box {
+        width: calc(100% - 30px);
+        max-width: 390px;
+        height: 230px;
+        margin: 15px auto;
+    }
+}
