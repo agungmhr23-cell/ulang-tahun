@@ -1,8 +1,14 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ulang Tahun</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
 
 <title>Happy Birthday 💙</title>
 
@@ -1740,51 +1746,3 @@ for (
 
 </body>
 </html>
-.video-box {
-    position: relative;
-
-    width: 70%;
-    max-width: 280px;
-
-    height: 150px;
-
-    margin: 12px auto;
-
-    overflow: hidden;
-
-    border-radius: 18px;
-
-    background: #023b5c;
-
-    border: 2px solid rgba(140, 235, 255, 0.6);
-
-    box-shadow:
-        0 8px 20px rgba(0, 0, 0, 0.3),
-        0 0 15px rgba(80, 220, 255, 0.2);
-
-    flex-shrink: 0;
-}
-
-.video-box video {
-    width: 100%;
-    height: 100%;
-
-    object-fit: cover;
-
-    display: block;
-}
-
-
-/* HP */
-
-@media (max-width: 500px) {
-
-    .video-box {
-        width: 60%;
-max-width: 230px;
-height: 125px;
-        margin: 10px auto;
-        border-radius: 16px;
-    }
-
-}
