@@ -22,3 +22,12 @@
     object-fit: cover;
     display: block;
 }
+@media (max-width: 500px) {
+    .video-box {
+        width: 100%;
+        max-width: 390px;
+        height: 230px;
+        margin: 15px auto;
+        border-radius: 22px;
+    }
+}
